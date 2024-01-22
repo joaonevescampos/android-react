@@ -1,0 +1,29 @@
+main {
+    display: flex;
+    justify-content: center;
+}
+
+main div {
+    max-width: 1000px;
+}
+
+main h1 {
+    color: rgb(37, 0, 201);
+    margin: 20px;
+}
+
+main p {
+    color: black;
+    margin: 20px;
+    text-align: justify;
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+    margin: 40px 0 40px 0;
+}
+
+.img img {
+    width: 300px;
+}

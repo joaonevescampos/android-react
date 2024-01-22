@@ -1,0 +1,18 @@
+nav {
+    background-image: linear-gradient(rgb(91, 67, 226), rgb(39, 11, 199));
+    height: 180px;
+    color: white;
+}
+
+nav > div > p, nav > div > h1 {
+    display: flex;
+    justify-content: center;
+    padding-top: 25px; 
+    text-align: center; 
+}
+
+@media screen and (max-width: 500px) {
+    nav > div > p, nav > div > h1 {
+        padding-top: 15px; 
+    }
+}

@@ -1,0 +1,28 @@
+.menu {
+    display: flex;
+    justify-content: flex-start;
+    
+}
+
+.menu ul li {
+    display: flex;
+    list-style-type: none;
+    margin-right: 10px;
+    
+}
+
+.menu ul li a {
+    text-decoration: none;  
+    color: white;
+    border-radius: 5px;
+    border: none;
+    font-size: 10pt;
+    font-weight: bold;
+    padding: 5px;
+}
+
+.menu ul li a:hover {
+    background-color: rgb(159, 99, 255);
+    box-sizing: border-box;
+}
+

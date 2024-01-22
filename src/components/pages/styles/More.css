@@ -1,0 +1,56 @@
+article {
+    background-color: rgb(220, 171, 248);
+    height: 430px;
+    border-radius: 10px;
+    width: 90%;
+    max-width: 800px;
+    min-width: 300px;
+    margin: 20px;
+}
+
+article h2 {
+    background-color: rgb(88, 79, 212);
+    font-size: 12pt;
+    padding: 15px;
+    margin-top: 0;
+    border-radius: 10px 10px 0 0;
+}
+
+article p {
+    color: black;
+    font-size: 10pt;
+    margin: 0 20px;
+}
+
+.lista-container {
+    display: flex;
+    justify-content: center;
+    
+}
+
+.lista {
+    display: flex;
+    justify-content: space-around;
+    width: 400px;
+}
+
+.lista div li {
+    list-style-type: none;
+    color: black;
+    font-size: 10pt
+}
+
+@media screen and (max-width: 600px){
+    article {
+        height: 500px;
+    }
+
+    .lista-container {
+        display: block;
+    }
+
+    .lista {
+        display: block;
+        width: 300px;
+    }
+}
