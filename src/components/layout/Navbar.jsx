@@ -17,10 +17,10 @@ const Navbar = () => {
            </div>
             <BrowserRouter basename={process.env.PUBLIC_URL}>
                 <Routes>
-                <Route exact path={`${process.env.PUBLIC_URL}/`} element={<Home />} />
-                <Route exact path={`${process.env.PUBLIC_URL}/curiosidades`} element={<Contact />} />
-                 <Route exact path={`${process.env.PUBLIC_URL}/sobre`} element={<About />} />
-                <Route exact path={`${process.env.PUBLIC_URL}/saibamais`} element={<More />} />
+                <Route exact path={`${process.env.PUBLIC_URL}/android-react/`} element={<Home />} />
+                <Route exact path={`${process.env.PUBLIC_URL}/android-react/curiosidades`} element={<Contact />} />
+                 <Route exact path={`${process.env.PUBLIC_URL}/android-react/sobre`} element={<About />} />
+                <Route exact path={`${process.env.PUBLIC_URL}/android-react/saibamais`} element={<More />} />
                 </Routes>
             </BrowserRouter>
             <Footer />
