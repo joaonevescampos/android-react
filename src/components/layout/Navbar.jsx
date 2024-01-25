@@ -15,12 +15,12 @@ const Navbar = () => {
                 <p>Tudo aquilo que você sempre quis saber sobre o mundo Tech, em um único lugar</p>
                 <Menu />
            </div>
-            <BrowserRouter basename={process.env.PUBLIC_URL}>
+            <BrowserRouter>
                 <Routes>
-                <Route exact path={`${process.env.PUBLIC_URL}/android-react/`} element={<Home />} />
-                <Route exact path={`${process.env.PUBLIC_URL}/android-react/curiosidades`} element={<Contact />} />
-                 <Route exact path={`${process.env.PUBLIC_URL}/android-react/sobre`} element={<About />} />
-                <Route exact path={`${process.env.PUBLIC_URL}/android-react/saibamais`} element={<More />} />
+                <Route exact path="/" element={<Home />} />
+                <Route exact path="/curiosidades" element={<Contact />} />
+                 <Route exact path="/sobre"element={<About />} />
+                <Route exact path="/saibamais" element={<More />} />
                 </Routes>
             </BrowserRouter>
             <Footer />
