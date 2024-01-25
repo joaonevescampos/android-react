@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/android-react/static/css/main.58cd4240.css",
+    "main.js": "/android-react/static/js/main.be81ecd0.js",
+    "index.html": "/android-react/index.html",
+    "main.58cd4240.css.map": "/android-react/static/css/main.58cd4240.css.map",
+    "main.be81ecd0.js.map": "/android-react/static/js/main.be81ecd0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.58cd4240.css",
+    "static/js/main.be81ecd0.js"
+  ]
+}
