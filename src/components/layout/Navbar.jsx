@@ -17,10 +17,10 @@ const Navbar = () => {
            </div>
             <BrowserRouter basename={process.env.PUBLIC_URL}>
                 <Routes>
-                <Route exact path="/" element={<Home />} />
-                <Route exact path="/curiosidades" element={<Contact />} />
-                 <Route exact path="/sobre" element={<About />} />
-                <Route exact path="/saibamais" element={<More />} />
+                <Route exact path={`${process.env.PUBLIC_URL}/`} element={<Home />} />
+                <Route exact path={`${process.env.PUBLIC_URL}/curiosidades`} element={<Contact />} />
+                 <Route exact path={`${process.env.PUBLIC_URL}/sobre`} element={<About />} />
+                <Route exact path={`${process.env.PUBLIC_URL}/saibamais`} element={<More />} />
                 </Routes>
             </BrowserRouter>
             <Footer />
