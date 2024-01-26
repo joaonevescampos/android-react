@@ -15,7 +15,7 @@ const Navbar = () => {
                 <p>Tudo aquilo que você sempre quis saber sobre o mundo Tech, em um único lugar</p>
                 <Menu />
            </div>
-            <BrowserRouter>
+            <BrowserRouter basename={process.env.PUBLIC_URL}>
                 <Routes>
                 <Route exact path="/" element={<Home />} />
                 <Route exact path="/curiosidades" element={<Contact />} />
